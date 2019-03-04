@@ -1,8 +1,6 @@
 #include <cmath>
 #include <iostream>
 
-#include "geometry.cpp"
-
 
 using namespace std;
 
@@ -11,6 +9,11 @@ using namespace std;
 
 
 // functions
+inline double todegree(double radian)
+{
+	return radian * 180 / M_PI;
+}
+
 inline double get_cos(double a, double b, double c)
 {
 	return
